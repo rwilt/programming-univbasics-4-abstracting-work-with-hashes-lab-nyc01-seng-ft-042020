@@ -1,7 +1,4 @@
 
-# working with hashes instantiating my_hash_creator accepts a key and a value as parameters
-and returns a hash with this key/value pair inside
-
 def my_hash_creator(key, value)
   hash = {}
   hash[key] = value
