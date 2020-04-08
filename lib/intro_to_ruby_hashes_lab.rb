@@ -3,7 +3,9 @@
 and returns a hash with this key/value pair inside
 
 def my_hash_creator(key, value)
+  hash = {}
   hash[key] = value
+  hash
 end
 
 def read_from_hash(hash, key)
